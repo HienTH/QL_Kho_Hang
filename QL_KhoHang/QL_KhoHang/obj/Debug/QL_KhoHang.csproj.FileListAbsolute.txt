@@ -1,0 +1,51 @@
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe.config
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.pdb
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csprojResolveAssemblyReference.cache
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.Form1.resources
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.Properties.Resources.resources
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csproj.GenerateResource.Cache
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.exe
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.pdb
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\bin\Debug\BusinessLogic.dll
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\bin\Debug\BusinessLogic.pdb
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNhapXuat.resources
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmThemPN.resources
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe.config
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.exe
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.pdb
+E:\k6_thay\tt_nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe.config
+E:\k6_thay\tt_nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.exe
+E:\k6_thay\tt_nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.pdb
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe.config
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.exe
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.pdb
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.pdb
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csprojResolveAssemblyReference.cache
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.Properties.Resources.resources
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csproj.GenerateResource.Cache
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmHangHoa.resources
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmCN.resources
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNCC.resources
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmTrangChu.resources
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmThongKe.resources
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNhap.resources
+E:\Học Tập\Kỳ 6\Thuc tap nhom\Bai4_QuanLyKhoHang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmXuat.resources
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe.config
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.exe
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.pdb
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.pdb
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csprojResolveAssemblyReference.cache
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmHangHoa.resources
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmCN.resources
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmThongKe.resources
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmTrangChu.resources
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmXuat.resources
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.Properties.Resources.resources
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csproj.GenerateResource.Cache
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmLogin.resources
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmAdmin.resources
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNCC.resources
+C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNhap.resources
