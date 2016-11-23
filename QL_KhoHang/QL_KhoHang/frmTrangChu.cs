@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace QL_KhoHang
 {
@@ -88,6 +89,11 @@ namespace QL_KhoHang
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            Process.Start(Application.StartupPath + "\\QLKH.docx");
         }
 
     }

@@ -359,5 +359,10 @@ namespace QL_KhoHang
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            dgvHH.DataSource = _con.Get("select * from HangHoa where tenHH like '%"+textBox1.Text+"%'");
+        }
+
     }
 }

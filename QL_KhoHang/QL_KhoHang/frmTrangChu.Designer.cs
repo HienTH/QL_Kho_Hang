@@ -37,8 +37,8 @@
             this.btnNH = new System.Windows.Forms.Button();
             this.btnUser = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.btnHelp = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -149,14 +149,6 @@
             this.panel1.TabIndex = 9;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // panel2
-            // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 53);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(995, 608);
-            this.panel2.TabIndex = 10;
-            // 
             // btnHelp
             // 
             this.btnHelp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -166,6 +158,15 @@
             this.btnHelp.TabIndex = 3;
             this.btnHelp.Text = "Trợ giúp";
             this.btnHelp.UseVisualStyleBackColor = false;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 53);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(995, 608);
+            this.panel2.TabIndex = 10;
             // 
             // frmTrangChu
             // 

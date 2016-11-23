@@ -175,7 +175,7 @@ namespace QL_KhoHang
             if (txtMaPN.Text != "" && cboTenNCC.Text != "")
             {
                 string sql1 = "select * from PHIEUNHAP";
-                string sql = "insert into PHIEUNHAP values('" + txtMaPN.Text + "',N'" + cboTenNCC.SelectedValue + "',N'" + dateTimePicker1.Value + "','0')";
+                string sql = "insert into PHIEUNHAP values('" + txtMaPN.Text + "',N'" + cboTenNCC.SelectedValue + "',N'" + dateTimePicker1.Text.ToString() + "','0')";
                 kn.Get(sql);
                 dtgrvPN.DataSource = kn.Get(sql1);
 
