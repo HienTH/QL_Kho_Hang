@@ -12,11 +12,18 @@ namespace QL_KhoHang
 {
     public partial class frmTrangChu : Form
     {
-        public frmTrangChu()
+        public frmTrangChu(int a, string b)
         {
             InitializeComponent();
+            if(a==0)
+            {
+                btnUser.Enabled = false;
+            }
+            if(a==1)
+            {
+                btnUser.Enabled = true;
+            }
         }
-
         private void btnNCC_Click(object sender, EventArgs e)
         {
             frmNCC NCC = new frmNCC();
@@ -37,7 +44,12 @@ namespace QL_KhoHang
         private void btnDSHH_Click(object sender, EventArgs e)
         {
             frmHangHoa HH = new frmHangHoa();
-            HH.ShowDialog();
+            HH.TopLevel = false;
+            panel2.Controls.Clear();
+            this.panel2.Controls.Add(HH);
+            HH.Show();
+//            frmHangHoa HH = new frmHangHoa();
+//            HH.ShowDialog();
         }
 
         private void btnNH_Click(object sender, EventArgs e)
@@ -60,7 +72,22 @@ namespace QL_KhoHang
 
         private void frmTrangChu_Load(object sender, EventArgs e)
         {
-            
+            frmHangHoa HH = new frmHangHoa();
+            HH.TopLevel = false;
+            panel2.Controls.Clear();
+            this.panel2.Controls.Add(HH);
+            HH.Show();
+        }
+
+        private void btnUser_Click(object sender, EventArgs e)
+        {
+            frmAdmin frmad = new frmAdmin();
+            frmad.ShowDialog();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
     }

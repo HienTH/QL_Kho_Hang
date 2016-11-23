@@ -40,6 +40,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.txtpw);
@@ -72,6 +73,7 @@
             // 
             // txtpw
             // 
+            this.txtpw.BackColor = System.Drawing.SystemColors.Info;
             this.txtpw.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpw.Location = new System.Drawing.Point(38, 91);
             this.txtpw.Multiline = true;
@@ -83,13 +85,13 @@
             // 
             // txtus
             // 
+            this.txtus.BackColor = System.Drawing.SystemColors.Info;
             this.txtus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtus.Location = new System.Drawing.Point(38, 33);
             this.txtus.Multiline = true;
             this.txtus.Name = "txtus";
             this.txtus.Size = new System.Drawing.Size(167, 29);
             this.txtus.TabIndex = 0;
-            this.txtus.Text = "username";
             this.txtus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
@@ -104,8 +106,10 @@
             // 
             // frmLogin
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(530, 419);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);

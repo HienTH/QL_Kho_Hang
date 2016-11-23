@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace QL_KhoHang
 {
@@ -36,18 +37,29 @@ namespace QL_KhoHang
             }
             catch { }
         }
-
-        private void btnThot_Click(object sender, EventArgs e)
+        public bool IsNumber(string pText)
         {
-            this.Close();
+            Regex regex = null;
+            try
+            {
+                regex = new Regex(@"^[-+]?[0-9]*\.?[0-9]+$"); return regex.IsMatch(pText);
+            }
+            catch (Exception ex)
+            {
+                return regex.IsMatch(pText);
+            }
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            if(cboTK.Text=="Giá")
+            if(cboTK.Text=="Giá" && IsNumber(txtTK.Text))
             {
                 string sql = "select * from HANGHOA where GiaNhap <= " + txtTK.Text;
                 dataGridView1.DataSource = kn.Get(sql);
+            }
+            if (cboTK.Text == "Giá" && !IsNumber(txtTK.Text))
+            {
+                MessageBox.Show("Nhập vào là một số", "Thông báo");
             }
             if(cboTK.Text=="NSX")
             {
@@ -66,6 +78,15 @@ namespace QL_KhoHang
             if (cboTK.Text == "")
             {
                 txtTK.Text = "";
+                string sql = "select * from HANGHOA";
+                dataGridView1.DataSource = kn.Get(sql);
+            }
+        }
+
+        private void txtTK_TextChanged(object sender, EventArgs e)
+        {
+            if(txtTK.Text=="")
+            {
                 string sql = "select * from HANGHOA";
                 dataGridView1.DataSource = kn.Get(sql);
             }

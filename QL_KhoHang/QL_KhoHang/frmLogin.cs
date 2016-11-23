@@ -17,50 +17,33 @@ namespace QL_KhoHang
         {
             InitializeComponent();
         }
-        string strcon = @"Data Source=.\SQLEXPRESS;Initial Catalog=QL_KhoHang;Integrated Security=True";
-        SqlCommand command;
-        SqlConnection conn;
+        KetNoiCSDL kn = new KetNoiCSDL();
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            try
+            string str = @"select * from USERR where  Username='" + txtus.Text + "' and Password='" + txtpw.Text + "'";
+            if (kn.Login(str) == true)
             {
-                conn = new SqlConnection(strcon);
-                conn.Open();
-                string sql = "select COUNT(*) from USERR where Quyen = 0 and Username=@username and Password=@password";
-                command = new SqlCommand(sql,conn);
-                command.Parameters.Add("@username", txtus.Text);
-                command.Parameters.Add("@password", txtpw.Text);
-                int x = (int)command.ExecuteScalar();
-                if(x==1)
-                {
-                    frmTrangChu frmtc = new frmTrangChu();
-                    frmtc.Show();
-                }
-                else
-                {
-                    string sql1 = "select COUNT(*) from USERR where Quyen = 1 and Username=@username and Password=@password";
-                    command = new SqlCommand(sql1, conn);
-                    command.Parameters.Add("@username", txtus.Text);
-                    command.Parameters.Add("@password", txtpw.Text);
-                    int y = 0;
-                    y = (int)command.ExecuteScalar();
-                    if(y!=0)
-                    {
-                        frmAdmin frmad = new frmAdmin();
-                        frmad.Show();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Sai tài khoản hoặc mật khẩu!!!", "Thông Báo");
-                    }
-                }
+                this.Hide();
+                string a, b;
+                a = kn.Get(str).Rows[0][2].ToString();
+                b = kn.Get(str).Rows[0][0].ToString();
+                frmTrangChu frmtc = new frmTrangChu(int.Parse(a), b);
+                frmtc.FormClosed += new FormClosedEventHandler(frmTrangChu_closed);
+                frmtc.ShowDialog();
             }
-            catch(Exception ex)
+            else
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Đăng nhập không thành công!");
             }
-        }
 
+        }
+        private void frmTrangChu_closed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+            txtus.Text = "";
+            txtpw.Text = "";
+            txtus.Focus();
+        }
         private void frmLogin_Load(object sender, EventArgs e)
         {
 
@@ -68,7 +51,7 @@ namespace QL_KhoHang
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if(checkBox1.Checked)
+            if (checkBox1.Checked)
             {
                 txtpw.UseSystemPasswordChar = true;
             }

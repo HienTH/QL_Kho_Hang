@@ -30,6 +30,11 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.dgvChiNhanh = new System.Windows.Forms.DataGridView();
+            this.clmSTT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clmMaCN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clmTenCN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clmDiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clmSDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtTimTen = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -45,11 +50,6 @@
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtSDT = new System.Windows.Forms.TextBox();
-            this.clmSTT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clmMaCN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clmTenCN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clmDiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clmSDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiNhanh)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -82,6 +82,40 @@
             this.dgvChiNhanh.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChiNhanh_CellClick);
             this.dgvChiNhanh.SelectionChanged += new System.EventHandler(this.dgvChiNhanh_SelectionChanged);
             // 
+            // clmSTT
+            // 
+            this.clmSTT.HeaderText = "STT";
+            this.clmSTT.Name = "clmSTT";
+            this.clmSTT.Width = 50;
+            // 
+            // clmMaCN
+            // 
+            this.clmMaCN.DataPropertyName = "MaCN";
+            this.clmMaCN.HeaderText = "Mã Chi Nhánh";
+            this.clmMaCN.Name = "clmMaCN";
+            this.clmMaCN.Width = 150;
+            // 
+            // clmTenCN
+            // 
+            this.clmTenCN.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clmTenCN.DataPropertyName = "TenCN";
+            this.clmTenCN.HeaderText = "Tên Chi Nhánh";
+            this.clmTenCN.Name = "clmTenCN";
+            // 
+            // clmDiaChi
+            // 
+            this.clmDiaChi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clmDiaChi.DataPropertyName = "DiaChi";
+            this.clmDiaChi.HeaderText = "Địa Chỉ";
+            this.clmDiaChi.Name = "clmDiaChi";
+            // 
+            // clmSDT
+            // 
+            this.clmSDT.DataPropertyName = "SDT";
+            this.clmSDT.HeaderText = "Số Điện thoại";
+            this.clmSDT.Name = "clmSDT";
+            this.clmSDT.Width = 150;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtTimTen);
@@ -103,6 +137,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.btnXoa);
             this.groupBox1.Controls.Add(this.groupBox2);
@@ -244,40 +279,6 @@
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(134, 20);
             this.txtSDT.TabIndex = 3;
-            // 
-            // clmSTT
-            // 
-            this.clmSTT.HeaderText = "STT";
-            this.clmSTT.Name = "clmSTT";
-            this.clmSTT.Width = 50;
-            // 
-            // clmMaCN
-            // 
-            this.clmMaCN.DataPropertyName = "MaCN";
-            this.clmMaCN.HeaderText = "Mã Chi Nhánh";
-            this.clmMaCN.Name = "clmMaCN";
-            this.clmMaCN.Width = 150;
-            // 
-            // clmTenCN
-            // 
-            this.clmTenCN.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clmTenCN.DataPropertyName = "TenCN";
-            this.clmTenCN.HeaderText = "Tên Chi Nhánh";
-            this.clmTenCN.Name = "clmTenCN";
-            // 
-            // clmDiaChi
-            // 
-            this.clmDiaChi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clmDiaChi.DataPropertyName = "DiaChi";
-            this.clmDiaChi.HeaderText = "Địa Chỉ";
-            this.clmDiaChi.Name = "clmDiaChi";
-            // 
-            // clmSDT
-            // 
-            this.clmSDT.DataPropertyName = "SDT";
-            this.clmSDT.HeaderText = "Số Điện thoại";
-            this.clmSDT.Name = "clmSDT";
-            this.clmSDT.Width = 150;
             // 
             // frmCN
             // 
