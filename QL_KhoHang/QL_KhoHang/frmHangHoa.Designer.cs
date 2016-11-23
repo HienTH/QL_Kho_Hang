@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.btnThot = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtSL = new System.Windows.Forms.TextBox();
             this.txtGN = new System.Windows.Forms.TextBox();
@@ -63,8 +62,8 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panel1.Controls.Add(this.btnSearch);
-            this.panel1.Controls.Add(this.btnThot);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.txtTK);
             this.panel1.Controls.Add(this.cboTK);
@@ -72,28 +71,18 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(837, 315);
+            this.panel1.Size = new System.Drawing.Size(984, 315);
             this.panel1.TabIndex = 1;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(620, 18);
+            this.btnSearch.Location = new System.Drawing.Point(704, 25);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(57, 23);
             this.btnSearch.TabIndex = 88;
             this.btnSearch.Text = "OK";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
-            // 
-            // btnThot
-            // 
-            this.btnThot.Location = new System.Drawing.Point(714, 18);
-            this.btnThot.Name = "btnThot";
-            this.btnThot.Size = new System.Drawing.Size(75, 23);
-            this.btnThot.TabIndex = 87;
-            this.btnThot.Text = "Thoát";
-            this.btnThot.UseVisualStyleBackColor = true;
-            this.btnThot.Click += new System.EventHandler(this.btnThot_Click);
             // 
             // groupBox2
             // 
@@ -110,7 +99,7 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(12, 67);
+            this.groupBox2.Location = new System.Drawing.Point(70, 70);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(808, 245);
             this.groupBox2.TabIndex = 86;
@@ -229,10 +218,11 @@
             // 
             // txtTK
             // 
-            this.txtTK.Location = new System.Drawing.Point(416, 20);
+            this.txtTK.Location = new System.Drawing.Point(500, 27);
             this.txtTK.Name = "txtTK";
             this.txtTK.Size = new System.Drawing.Size(173, 20);
             this.txtTK.TabIndex = 73;
+            this.txtTK.TextChanged += new System.EventHandler(this.txtTK_TextChanged);
             // 
             // cboTK
             // 
@@ -240,7 +230,7 @@
             this.cboTK.Items.AddRange(new object[] {
             "Giá",
             "NSX"});
-            this.cboTK.Location = new System.Drawing.Point(237, 20);
+            this.cboTK.Location = new System.Drawing.Point(321, 27);
             this.cboTK.Name = "cboTK";
             this.cboTK.Size = new System.Drawing.Size(161, 21);
             this.cboTK.TabIndex = 72;
@@ -250,7 +240,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(135, 27);
+            this.label9.Location = new System.Drawing.Point(219, 34);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(73, 13);
             this.label9.TabIndex = 71;
@@ -270,7 +260,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(0, 315);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(837, 287);
+            this.dataGridView1.Size = new System.Drawing.Size(984, 287);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -329,12 +319,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(837, 661);
+            this.ClientSize = new System.Drawing.Size(984, 661);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Name = "frmHangHoa";
-            this.Text = "Kho Hàng";
+            this.Text = "                       Kho Hàng";
             this.Load += new System.EventHandler(this.frmHangHoa_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -367,7 +357,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.Button btnThot;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;

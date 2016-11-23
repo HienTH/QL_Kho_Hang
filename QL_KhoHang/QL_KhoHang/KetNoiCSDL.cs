@@ -54,8 +54,16 @@ namespace QL_KhoHang
                 DongKN();
                 return 0;
             }
-            
-            
+        }
+        public bool Login(string sql)
+        {
+            bool b;
+            MoKN();
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataReader re = cmd.ExecuteReader();
+            b = re.Read();
+            DongKN();
+            return b;
         }
     }
 }

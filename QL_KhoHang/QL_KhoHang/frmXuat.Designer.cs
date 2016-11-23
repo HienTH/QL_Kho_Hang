@@ -50,6 +50,7 @@
             this.btnThemHH = new System.Windows.Forms.Button();
             this.txtThanhTien = new System.Windows.Forms.TextBox();
             this.txtSLXuat = new System.Windows.Forms.TextBox();
+            this.txtSLConLai = new System.Windows.Forms.TextBox();
             this.txtSL = new System.Windows.Forms.TextBox();
             this.txtGiaXuat = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -59,6 +60,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtThongTin = new System.Windows.Forms.TextBox();
@@ -83,8 +85,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.txtSLConLai = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHH)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -339,6 +339,15 @@
             this.txtSLXuat.TabIndex = 137;
             this.txtSLXuat.TextChanged += new System.EventHandler(this.txtSLXuat_TextChanged);
             // 
+            // txtSLConLai
+            // 
+            this.txtSLConLai.Enabled = false;
+            this.txtSLConLai.Location = new System.Drawing.Point(123, 176);
+            this.txtSLConLai.Name = "txtSLConLai";
+            this.txtSLConLai.Size = new System.Drawing.Size(137, 20);
+            this.txtSLConLai.TabIndex = 137;
+            this.txtSLConLai.TextChanged += new System.EventHandler(this.txtSLConLai_TextChanged);
+            // 
             // txtSL
             // 
             this.txtSL.Enabled = false;
@@ -421,6 +430,16 @@
             this.label12.Size = new System.Drawing.Size(76, 13);
             this.label12.TabIndex = 110;
             this.label12.Text = "Số Lượng xuất";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(17, 179);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(87, 13);
+            this.label17.TabIndex = 110;
+            this.label17.Text = "Số Lượng còn lại";
             // 
             // label4
             // 
@@ -658,29 +677,11 @@
             this.label9.TabIndex = 110;
             this.label9.Text = "Tổng tiền";
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(17, 179);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(87, 13);
-            this.label17.TabIndex = 110;
-            this.label17.Text = "Số Lượng còn lại";
-            // 
-            // txtSLConLai
-            // 
-            this.txtSLConLai.Enabled = false;
-            this.txtSLConLai.Location = new System.Drawing.Point(123, 176);
-            this.txtSLConLai.Name = "txtSLConLai";
-            this.txtSLConLai.Size = new System.Drawing.Size(137, 20);
-            this.txtSLConLai.TabIndex = 137;
-            this.txtSLConLai.TextChanged += new System.EventHandler(this.txtSLConLai_TextChanged);
-            // 
             // frmXuat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1244, 698);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);

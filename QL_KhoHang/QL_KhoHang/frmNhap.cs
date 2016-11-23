@@ -76,8 +76,10 @@ namespace QL_KhoHang
                 txtMaHH.Text = chuoi;
             }
             Trong();
-            string sql2 = "select * from HANGHOA where MaHH = (select CHITIETPHIEUNHAP.MaHH from CHITIETPHIEUNHAP where CHITIETPHIEUNHAP.MaPN = '" + txtPDN.Text + "')";
+            string sql2 = "select * from HANGHOA where MaHH = (select CHITIETPHIEUNHAP.MaHH from CHITIETPHIEUNHAP where CHITIETPHIEUNHAP.MaPN = '" + txtMaPN.Text + "')";
             dtgrvHH.DataSource = kn.Get(sql2);
+            btnLuu.Enabled = true;
+            button2.Enabled = true;
         }
         private void frmNhap_Load(object sender, EventArgs e)
         {
@@ -89,7 +91,6 @@ namespace QL_KhoHang
             dateTimePicker1.Enabled = false;
             dateTimePicker1.Value = DateTime.Today; 
             txtMaPN.Enabled = false;
-            txtPDN.Enabled = false;
             cboTenNCC.Enabled = true;
             btnTaoMoi.Enabled = true;
 
@@ -105,60 +106,59 @@ namespace QL_KhoHang
             cboTenNCC.DisplayMember = "TenNCC";
 
             cboTenNCC.Text = "";
+            cboTenNCC.Enabled = false;
+            btnXong.Enabled = false;
         }
         private void btnXong_Click(object sender, EventArgs e)
         {
             txtMaPN.Text = "";
-            txtPDN.Text = "";
-            txtPDN.Text = "";
             cboTenNCC.Text = "";
+            cboTenNCC.Enabled = false;
             btnLuuPN.Enabled = false;
             btnTaoMoi.Enabled = true;
+            string sql1 = "delete from PHIEUNHAP where TongTien=" + 0;
+            kn.Get(sql1);
             string sql = "select * from HANGHOA";
             dtgrvHH.DataSource = kn.Get(sql);
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            DialogResult dlr = MessageBox.Show("Bạn có chắc chắn muốn hủy phiếu đang nhập???", "Hủy Phiếu Nhập", MessageBoxButtons.OKCancel,MessageBoxIcon.Question);
-            if(dlr==DialogResult.OK)
-            {
-                string view = "alter View THH as select MaHH from CHITIETPHIEUNHAP where MaPN='" + txtPDN.Text + "'";
-                string sql2 = "delete from CHITIETPHIEUNHAP where MaPN='" + txtPDN.Text + "'";
-                kn.Get(sql2);
-                string sql = "delete from PHIEUNHAP where MaPN='"+ txtPDN.Text +"'";
-                kn.Get(sql);
-                string sql3 = "delete from HANGHOA where MaHH = (select MaHH from THH)";
-                kn.Get(sql3);
-                string sql1 = "select * from PHIEUNHAP";
-                dtgrvPN.DataSource = kn.Get(sql1);
-            }
+            string sql3 = "select * from PHIEUNHAP";
+            dtgrvPN.DataSource = kn.Get(sql3);
+            Trong();
+            txtMaHH.Text = "";
+            KhoaButton();
+            btnXong.Enabled = false;
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
             if(i==1)
             {
-                int x=int.Parse(txtGN.Text);
-                int y=int.Parse(txtSL.Text);
-                
-                string sql1 = "insert into HANGHOA values('" + txtMaHH.Text + "',N'" + txtTenHH.Text + "','" + txtSL.Text + "','" + txtGN.Text + "',N'" + txtNSX.Text + "',N'" + txtThongTin.Text + "')";
-                kn.Get(sql1);
+                if(txtTenHH.Text!="" && txtSL.Text!="" && txtSL.Text!="")
+                {
+                    int x = int.Parse(txtGN.Text);
+                    int y = int.Parse(txtSL.Text);
 
-                string sql = "insert into CHITIETPHIEUNHAP values('" + txtPDN.Text + "','" + txtMaHH.Text + "','" + txtSL.Text + "','" + txtGN.Text + "','" + x * y + "')";
-                kn.Get(sql);                
-                dtgrvHH.DataSource = kn.Get("select * from HANGHOA");
+                    string sql1 = "insert into HANGHOA values('" + txtMaHH.Text + "',N'" + txtTenHH.Text + "','" + txtSL.Text + "','" + txtGN.Text + "',N'" + txtNSX.Text + "',N'" + txtThongTin.Text + "')";
+                    kn.Get(sql1);
 
-                string sql2 = "update PHIEUNHAP set TongTien=TongTien+'" + x * y + "' where MaPN='" + txtPDN.Text + "'";
-                dtgrvPN.DataSource = kn.Get(sql2);
-                
-                dtgrvPN.DataSource = kn.Get("select * from PHIEUNHAP");
-                Trong();
+                    string sql = "insert into CHITIETPHIEUNHAP values('" + txtMaPN.Text + "','" + txtMaHH.Text + "','" + txtSL.Text + "','" + txtGN.Text + "','" + x * y + "')";
+                    kn.Get(sql);
+                    dtgrvHH.DataSource = kn.Get("select * from HANGHOA");
 
-                string sql3 = "select * from HANGHOA where MaHH in (select CHITIETPHIEUNHAP.MaHH from CHITIETPHIEUNHAP where CHITIETPHIEUNHAP.MaPN = '" + txtPDN.Text + "')";
-                dtgrvHH.DataSource = kn.Get(sql3);
+                    string sql2 = "update PHIEUNHAP set TongTien=TongTien+'" + x * y + "' where MaPN='" + txtMaPN.Text + "'";
+                    dtgrvPN.DataSource = kn.Get(sql2);
 
-                txtMaHH.Text = "";
+                    dtgrvPN.DataSource = kn.Get("select * from PHIEUNHAP");
+                    Trong();
+
+                    string sql3 = "select * from HANGHOA where MaHH in (select CHITIETPHIEUNHAP.MaHH from CHITIETPHIEUNHAP where CHITIETPHIEUNHAP.MaPN = '" + txtMaPN.Text + "')";
+                    dtgrvHH.DataSource = kn.Get(sql3);
+
+                    txtMaHH.Text = "";
+                }
+                else
+                {
+                    MessageBox.Show("Nhập thiếu thông tin", "Thông báo");
+                }
             }
         }
 
@@ -167,6 +167,7 @@ namespace QL_KhoHang
             Trong();
             txtMaHH.Text = "";
             Khoa();
+            btnLuu.Enabled = false;
         }
 
         private void btnLuuPN_Click_1(object sender, EventArgs e)
@@ -178,15 +179,17 @@ namespace QL_KhoHang
                 kn.Get(sql);
                 dtgrvPN.DataSource = kn.Get(sql1);
 
-                string sql2 = "select * from HANGHOA where MaHH = (select CHITIETPHIEUNHAP.MaHH from CHITIETPHIEUNHAP where CHITIETPHIEUNHAP.MaPN = '" + txtPDN.Text + "')";
+                string sql2 = "select * from HANGHOA where MaHH = (select CHITIETPHIEUNHAP.MaHH from CHITIETPHIEUNHAP where CHITIETPHIEUNHAP.MaPN = '" + txtMaPN.Text + "')";
                 dtgrvHH.DataSource = kn.Get(sql2);
 
-                txtPDN.Text = txtMaPN.Text;
                 cboTenNCC.Enabled = false;
                 btnTaoMoi.Enabled = false;
                 btnLuuPN.Enabled = false;
 
                 MoKhoaButton();
+                btnLuu.Enabled = false;
+                button2.Enabled = false;
+                btnXong.Enabled = true;
             }
         }
 
@@ -212,6 +215,7 @@ namespace QL_KhoHang
                 chuoi = "PN0" + Convert.ToString(so + 1);
                 txtMaPN.Text = chuoi;
             }
+            cboTenNCC.Enabled = true;
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
