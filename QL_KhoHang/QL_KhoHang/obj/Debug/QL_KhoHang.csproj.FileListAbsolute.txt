@@ -88,7 +88,6 @@ E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.exe
 E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.pdb
 E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe
 E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.pdb
-E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csprojResolveAssemblyReference.cache
 E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmAdmin.resources
 E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmCN.resources
 E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmHangHoa.resources
@@ -117,3 +116,4 @@ C:\Users\Hien\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_Kh
 C:\Users\Hien\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csproj.GenerateResource.Cache
 C:\Users\Hien\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe
 C:\Users\Hien\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.pdb
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csprojResolveAssemblyReference.cache

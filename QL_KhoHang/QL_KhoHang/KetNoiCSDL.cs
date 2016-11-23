@@ -17,6 +17,7 @@ namespace QL_KhoHang
             try
             {
                 con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=QL_KhoHang;Integrated Security=True");
+                //con = new SqlConnection(@"Data Source=.\;Initial Catalog=QL_KhoHang;Integrated Security=True");
                 con.Open();
             }
             catch

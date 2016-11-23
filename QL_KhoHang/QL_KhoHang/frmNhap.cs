@@ -76,7 +76,7 @@ namespace QL_KhoHang
                 txtMaHH.Text = chuoi;
             }
             Trong();
-            string sql2 = "select * from HANGHOA where MaHH = (select CHITIETPHIEUNHAP.MaHH from CHITIETPHIEUNHAP where CHITIETPHIEUNHAP.MaPN = '" + txtMaPN.Text + "')";
+            string sql2 = "select a.MaHH, TenHH, a.SoLuong, GiaNhap, NSX, ThongTin from HANGHOA a, CHITIETPHIEUNHAP b, PHIEUNHAP c where a.MaHH = b.MaHH and b.MaPN = c.MaPN and c.MaPN = '" + txtMaPN.Text + "'";
             dtgrvHH.DataSource = kn.Get(sql2);
             btnLuu.Enabled = true;
             button2.Enabled = true;
@@ -205,12 +205,12 @@ namespace QL_KhoHang
             chuoi = Convert.ToString(dtgrvPN.Rows[dtgrvPN.RowCount - 2].Cells[0].Value);
             chuoi = chuoi.Remove(0, 3);
             so = Convert.ToInt32(chuoi);
-            if (so + 1 < 100)
+            if (so + 1 < 10)
             {
                 chuoi = "PN00" + Convert.ToString(so + 1);
                 txtMaPN.Text = chuoi;
             }
-            else if (so + 1 >= 100)
+            else if (so + 1 >= 10)
             {
                 chuoi = "PN0" + Convert.ToString(so + 1);
                 txtMaPN.Text = chuoi;
