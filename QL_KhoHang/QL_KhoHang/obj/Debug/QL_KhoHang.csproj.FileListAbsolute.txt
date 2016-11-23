@@ -66,3 +66,20 @@ D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoH
 D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmXuat.resources
 D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.Properties.Resources.resources
 D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csproj.GenerateResource.Cache
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe.config
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.exe
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.pdb
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.pdb
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csprojResolveAssemblyReference.cache
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmAdmin.resources
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmCN.resources
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmHangHoa.resources
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmLogin.resources
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNCC.resources
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNhap.resources
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmThongKe.resources
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmTrangChu.resources
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmXuat.resources
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.Properties.Resources.resources
+C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csproj.GenerateResource.Cache

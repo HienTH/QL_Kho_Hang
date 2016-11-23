@@ -60,6 +60,17 @@ namespace QL_KhoHang
             txtSLXuat.Text = "";
             txtThanhTien.Text = "";
             btnThemHH.Enabled = false;
+            int sl = 0;
+            for (int i = 0; i < dgvHangXuat.RowCount - 1; i++)
+            {
+                if (dgvHH.CurrentRow.Cells["clmMaHH"].Value.ToString() == dgvHangXuat.Rows[i].Cells["clmMaHHX"].Value.ToString())
+                {
+                    sl = int.Parse(dgvHangXuat.Rows[i].Cells["clmSLX"].Value.ToString());
+                    break;
+                }
+            }
+            txtSLConLai.Text = (int.Parse(txtSL.Text) - sl).ToString();
+
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)
@@ -73,15 +84,15 @@ namespace QL_KhoHang
             if(txtSLXuat.Text!="")
             {
                 int sl = int.Parse(txtSLXuat.Text);
-                if (sl > int.Parse(txtSL.Text))
+                if (sl > int.Parse(txtSLConLai.Text))
                 {
                     MessageBox.Show("vượt quá số lượng trong kho!");
-                    txtSLXuat.Text = txtSL.Text;
+                    txtSLXuat.Text = txtSLConLai.Text;
                     txtThanhTien.Text = (int.Parse(txtSL.Text) * int.Parse(txtGiaXuat.Text)).ToString();
                 }
                 else
                 {
-
+                    //txtSLConLai.Text = (int.Parse(txtSL.Text) - sl).ToString();
                     txtThanhTien.Text = (sl * int.Parse(txtGiaXuat.Text)).ToString();
                     lbTTHH.Text = "("+chuyentien(txtThanhTien.Text+"000")+")";
                     btnThemHH.Enabled = true;
@@ -224,6 +235,7 @@ namespace QL_KhoHang
                 }
             }
            if(kt==0) dgvHangXuat.Rows.Add(dgvHH.CurrentRow.Cells["clmMaHH"].Value.ToString(), txtTenHH.Text, txtSLXuat.Text, txtThanhTien.Text);
+           txtSLConLai.Text = (int.Parse(txtSLConLai.Text) - int.Parse(txtSLXuat.Text)).ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -301,8 +313,8 @@ namespace QL_KhoHang
                 dt = _con.Get("select * from CHINHANH where tenCN=N'" + cboCN.Text + "'");
                 string macn = dt.Rows[0]["MaCN"].ToString();
                 string mapx = taoma();
-
-                _con.Exec("insert into PHIEUXUAT values('" + mapx + "','" + macn + "','" + DateTime.Today.Date.ToString() + "','" + txtTongTien.Text + "')");
+                string ngay = DateTime.Today.Year.ToString() + "/" + DateTime.Today.Month.ToString() + "/" + DateTime.Today.Day.ToString();
+                _con.Exec("insert into PHIEUXUAT values('" + mapx + "','" + macn + "','" + ngay + "','" + txtTongTien.Text + "')");
                 string mahh;
                 string sl;
                 int slkho;
@@ -340,6 +352,11 @@ namespace QL_KhoHang
            ma++;
            s = "PX00" + ma.ToString();
            return s;
+        }
+
+        private void txtSLConLai_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
     }
