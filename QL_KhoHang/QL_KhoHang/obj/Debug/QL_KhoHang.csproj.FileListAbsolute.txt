@@ -83,3 +83,20 @@ C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\De
 C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmXuat.resources
 C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.Properties.Resources.resources
 C:\Users\Hiếu Học\Documents\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csproj.GenerateResource.Cache
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe.config
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.exe
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.pdb
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.pdb
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csprojResolveAssemblyReference.cache
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmAdmin.resources
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmCN.resources
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmHangHoa.resources
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmLogin.resources
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNCC.resources
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNhap.resources
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmThongKe.resources
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmTrangChu.resources
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmXuat.resources
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.Properties.Resources.resources
+E:\GitHub\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csproj.GenerateResource.Cache
