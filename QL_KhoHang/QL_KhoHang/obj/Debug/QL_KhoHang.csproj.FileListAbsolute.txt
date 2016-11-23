@@ -49,3 +49,20 @@ C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\De
 C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmAdmin.resources
 C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNCC.resources
 C:\Users\Hien\Documents\Visual Studio 2013\Projects\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNhap.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe.config
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.exe
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.pdb
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.exe
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\bin\Debug\QL_KhoHang.pdb
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csprojResolveAssemblyReference.cache
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmAdmin.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmCN.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmHangHoa.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmLogin.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNCC.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmNhap.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmThongKe.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmTrangChu.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.frmXuat.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.Properties.Resources.resources
+D:\1-Study\4-HK6\ThucTapNhom\QL_Kho_Hang\QL_KhoHang\QL_KhoHang\obj\Debug\QL_KhoHang.csproj.GenerateResource.Cache

@@ -38,5 +38,24 @@ namespace QL_KhoHang
             DongKN();
             return dt;
         }
+        public int Exec(string sql)
+        {
+            MoKN();
+            try
+            {
+                SqlCommand cmd = new SqlCommand(sql, con);
+                int n=cmd.ExecuteNonQuery();
+                DongKN();
+                return n;
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show("Lỗi: " + e.ToString());
+                DongKN();
+                return 0;
+            }
+            
+            
+        }
     }
 }
